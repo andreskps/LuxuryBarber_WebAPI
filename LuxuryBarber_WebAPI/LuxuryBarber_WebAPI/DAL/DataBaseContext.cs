@@ -1,6 +1,9 @@
-﻿namespace LuxuryBarber_WebAPI.DAL
+﻿using Microsoft.EntityFrameworkCore;
+
+namespace LuxuryBarber_WebAPI.DAL
 {
-    public class DataBaseContext
+    public class DataBaseContext:DbContext
     {
+
     }
 }
